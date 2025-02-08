@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    cargarContenido("/global/global.html", "header-container", "header");
-    cargarContenido("/global/global.html", "footer-container", "footer");
-    cargarLinksGlobales("/global/global.html");
+    cargarContenido("https://tekkure.com/adarlpz/web/global/global.html", "header-container", "header");
+    cargarContenido("https://tekkure.com/adarlpz/web/global/global.html", "footer-container", "footer");
+    cargarLinksGlobales("https://tekkure.com/adarlpz/web/global/global.html");
 
     setTimeout(() => {
         document.getElementById("year").textContent = new Date().getFullYear();

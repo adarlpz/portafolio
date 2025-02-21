@@ -37,13 +37,13 @@ a {
     align-items: center;
     position: absolute;
     justify-content: space-between;
-    gap: 1.875rem;
+    gap: 3.125rem;
 }
 .nav_left {
-    right: 60%;
+    right: 65%;
 }
 .nav_right {
-    left: 60%;
+    left: 65%;
 }
 /* pie de pagina */
 footer {
